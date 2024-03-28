@@ -1,0 +1,16 @@
+ .navbar{
+    background-color: rgb(75, 74, 74);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 2px;
+
+    ul {
+        display: flex;
+        text-align: center;
+
+        p{
+            margin: 2px;
+            text-decoration-color: white;
+        }
+    }
+ }
