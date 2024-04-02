@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/styles.css';
+import '../styles/header.css';
 
 const Header = () => {
   return (
@@ -7,37 +7,42 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg"
     >
    <div className="container-fluid">
-     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-       <span className="navbar-toggler-icon" />
-     </button>
+     <div className="logo">
+      <img src='/assests/logo.png'></img>
+      <p>CloudPrism Solutions</p>
+     </div>
      <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
              {/* <Link className="navbar-brand" to="/">
                Account Management
              </Link> */}
-             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+             <ul className="navbar-nav">
                <li className="nav-item" >
                  {" "}
-                 <p className="nav-link">abcd</p>{" "}
+                 <p className="nav-link">About Us</p>{" "}
                </li>
                <li className="nav-item" >
                  {" "}
-                 <p className="nav-link">abcd</p>{" "}
+                 <p className="nav-link">Services</p>{" "}
                </li>
                <li className="nav-item" >
                  {" "}
-                 <p className="nav-link">abcd</p>{" "}
+                 <p className="nav-link">Resources</p>{" "}
                </li>
                <li className="nav-item" >
                  {" "}
-                 <p className="nav-link">abcd</p>{" "}
+                 <p className="nav-link">Events</p>{" "}
+               </li>
+               <li className="nav-item" >
+                 {" "}
+                 <p className="nav-link">Careers</p>{" "}
                </li>
              </ul>
-             <li className="nav-item">
-                 <button className="btn btn-primary">
-                 Contact Us
-                 </button>
-               </li>
            </div>
+           <div className="button">
+                 <button>
+                 Contact US
+                 </button>
+               </div>
          </div>
        </nav>
     </>

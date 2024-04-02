@@ -1,7 +1,14 @@
-*{
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-image: url('/public/assests/Rectangle 300.png');
-  background-size: cover; */
+}
+
+.home {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
 }
